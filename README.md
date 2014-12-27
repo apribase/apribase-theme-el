@@ -6,7 +6,7 @@ Emacs custom face for apribase.
 
 ## Installation
 
-Download `apribase-theme.el` to the directory `~/.emacs.d/theme/`.
+Download `apribase-theme.el` to the directory `~/.emacs.d/themes/`.
 Add this to your `~/.emacs.d/init.el`
 
 ```lisp
