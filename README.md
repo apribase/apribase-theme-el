@@ -2,6 +2,8 @@
 
 Emacs custom face for apribase.
 
+![apribase-theme.el](https://farm4.staticflickr.com/3690/8808034538_f3ef9262d2_z.jpg) 
+
 ## Installation
 
 Download `apribase-theme.el` to the directory `~/.emacs.d/theme/`.
