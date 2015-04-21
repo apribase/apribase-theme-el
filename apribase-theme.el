@@ -83,6 +83,12 @@
  ;; black red green yellow blue magenta cyan white
  '(ansi-color-names-vector ["#333333" "#ff6c60" "#285a5a" "#cd8500" "#6589fe" "#ff73fd" "#d092ff" "#cfbfad"]))
 
+
+(and load-file-name
+	 (boundp 'custom-theme-load-path)
+	 (add-to-list 'custom-theme-load-path
+				  (file-name-as-directory
+				   (file-name-directory load-file-name))))
 (provide-theme 'apribase)
 
 ;; Local Variables:
